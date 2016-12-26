@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFF42;
+	font-family: Helvetica;
+}
+
+.myMain {
+	font-size: 175%;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.myBigCont {
+	float: left;
+	height:200px;
+	padding: 10px;
+	width: 100%;
+}
+
+.mySmallCont {
+	background-color: grey;
+	border: 1px solid black;
+	height: 100%;
+	width: 100%;
+}
+
+.myLabel {
+	border: 1px solid black;
+	float: right;
+	height: 30px;
+	left: 1px;
+	margin: 0 0 10px 0;
+	padding: 3px;
+	position: relative;
+	text-align: center;
+	top: -1px;
+	width: 150px;
+}
+
+p {
+	clear: both;
+	font-size: 14px;
+	height: 70%;
+	margin: 10px;
+	overflow: auto;
+}
+
+#ColorChicken {background-color: #FF8899;}
+#ColorBeef {background-color: #EE0044; color: white;}
+#ColorSushi {background-color: #FFFF00;}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.myBigCont-md-1row {width: 50%;}
+	.myBigCont-md-2row {width: 100%;}
+}
+
+@media (min-width: 992px) {
+	.myBigCont {width: 33.33%;}
+}
+
