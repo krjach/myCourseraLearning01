@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+body {
+background: url('Happy Chicken Logo.jpg') center;
+/*background-color: #;*/
+background-size: 40%;
+/*background-blend-mode: lighten;*/
+}
+.myMenu {
+display: block;
+}
+div {
+	font-size: 24px;
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-align: center;
+	color: red; /* !important;*/
+	width: 600px;
+	text-transform: capitalize;
+	/*clear:both;*/
+	}
+div.trythat {
+width: 600px;
+height: 800px;	
+color: green;
+/*display: block;*/
+
+}
+div > div > span {
+	font-size 30px;
+	color: #0000FF;
+}
+div p {
+	font-size: 12px;
+	color: black;
+	/*font-weight: normal;*/
+}	
+p.trythis {
+	font-size: 12px;
+	background-color: yellow;
+	position: relative;
+	top: 100px;
+}
+header ul {
+	margin-left: 0;
+	padding: 0;
+	height: 50px;
+}
+header li {
+	list-style: none;
+	float: left;
+	/*height: 50px;*/
+}
+a {
+	clear: both;	
+
+}
+header li a {
+	height: 30px;
+	padding-top: 4px;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: grey;
+	border: 1px solid black;
+	display: block;
+	color: black;
+	text-align: center;
+	width: 200px;
+	margin-bottom: 1px;		
+}
+a:hover, a:active {
+	background-color: blue;
+	color: white;
+}
+header li:nth-child(3) {
+	/*font-size: 24px;*/
+	background-color: white;
+}
+header li:nth-child(odd):hover a {
+	background-color: green;
+	cursor:	pointer;
+}
+header div {
+	text-align: left;
+}
